@@ -27,7 +27,7 @@ function login() {
 <template>
     <div id="container">
         <div id="title">
-            <h1>电商后台管理系统</h1>
+            <h1>dnpsaber电商后台</h1>
         </div>
         <div class="input">
             <el-input v-model="name" prefix-icon="User" placeholder="请输入用户名"></el-input>
