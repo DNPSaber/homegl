@@ -44,17 +44,23 @@ function login() {
 #container {
     background: #595959;
     background-image: url("/public/login_bg.jpg");
-    height: 100%;
-    width: 100%;
-    position: absolute;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 #title {
     text-align: center;
     color: azure;
-    margin-top: 200px;
+    margin-bottom: 20px;
 }
 .input {
-    margin: 20px auto;
-    width: 500px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 500px;
+    padding: 0 20px;
 }
 </style>
